@@ -7,20 +7,19 @@
  */
 int main(void)
 {
-int i = 0;
-int comma = 0;  /* flag to indicate whether to print comma and space */
+int j;
 
-while (i < 100)
+
+for (j = i; j < 10; j++)
 {
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
 
-comma = (i != 99);  /* set flag to 1 except for last pair */
+putchar(j + '0');
 
-putchar(comma * ',');
-putchar(comma * ' ');
-
-i++;
+if (j != 9)
+{
+putchar(',');
+putchar(' ');
+}
 }
 
 
