@@ -21,6 +21,7 @@ last_digit = abs(n) % 10;
 
 if (n < 0)
 {
+last_digit *= -1;
 printf("-%d ", last_digit);
 }
 else
