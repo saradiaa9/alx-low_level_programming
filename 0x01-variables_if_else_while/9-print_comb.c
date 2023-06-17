@@ -23,7 +23,6 @@ putchar(comma * ' ');
 i++;
 }
 
-putchar('\n');
 
 return (0);
 }
