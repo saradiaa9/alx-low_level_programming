@@ -17,7 +17,8 @@ putchar((i % 10) + '0');
 
 comma = (i != 99);  /* set flag to 1 except for last pair */
 
-putchar(comma * ', ');
+putchar(comma * ',');
+putchar(comma * ' ');
 
 i++;
 }
