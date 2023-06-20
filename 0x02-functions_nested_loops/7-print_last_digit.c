@@ -7,12 +7,19 @@
  *
  * Return: the value of the last digit
  */
+int abs_int(int n)
+{
+if (n == INT_MIN)
+return abs(n + 1) + 1;
+else
+return abs(n);
+}
 int print_last_digit(int n)
 {
 int last_digit;
 
 /* Compute the last digit by taking the remainder of n divided by 10 */
-last_digit = abs(n) % 10;
+last_digit = abs_int(n) % 10;
 
 /* Print the last digit */
 _putchar(last_digit + '0');
