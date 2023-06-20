@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
-
+#include <limits.h>
 /**
  * print_last_digit - prints the last digit of a number
  * @n: the number to print the last digit of
