@@ -15,7 +15,8 @@ int last_digit;
 if (n == INT_MIN)
 last_digit = 8;
 else
-/* Compute the last digit by taking the remainder of the absolute value of n divided by 10 */
+/* Compute the last digit by taking the
+ * remainder of the absolute value of n divided by 10 */
 last_digit = abs(n) % 10;
 
 /* Print the last digit */
