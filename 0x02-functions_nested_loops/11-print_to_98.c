@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints all natural numbers from n to 98, separated by a comma and a space
+ * print_to_98 - prints all natural numbers from n to 98,
+ * separated by a comma and a space
  * @n: the starting natural number
  */
 void print_to_98(int n)
