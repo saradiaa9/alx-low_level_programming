@@ -7,4 +7,5 @@ int _putchar(char c);
 /* example function prototype */
 void print_hello(void);
 
+void print_alphabet(void);
 #endif /* MAIN_H */
