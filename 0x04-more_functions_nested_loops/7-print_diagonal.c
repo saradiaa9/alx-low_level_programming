@@ -1,5 +1,5 @@
 #include "main.h"
-#include "holberton.h"
+
 
 /**
  * print_diagonal-Draws a diagonal line on the terminal using the '\' character
