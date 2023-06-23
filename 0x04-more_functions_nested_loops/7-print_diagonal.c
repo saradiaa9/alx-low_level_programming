@@ -2,8 +2,7 @@
 #include "holberton.h"
 
 /**
- * print_diagonal -
- * Draws a diagonal line on the terminal using the '\' character
+ * print_diagonal-Draws a diagonal line on the terminal using the '\' character
  *
  * @n: The number of times the character '\' should be printed
  *
