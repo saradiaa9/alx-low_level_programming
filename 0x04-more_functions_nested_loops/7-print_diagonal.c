@@ -11,7 +11,7 @@ void print_diagonal(int n)
 {
 int i, j;
 
-if (n <= 0) /* if n is 0 or less, print only newline */
+if (n <= 0)
 {
 _putchar('\n');
 return;
