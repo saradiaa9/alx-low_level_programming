@@ -19,7 +19,7 @@ int i;
 
 if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
 {
-days_in_month[2] = 29; // February has 29 days in a leap year
+days_in_month[2] = 29;
 }
 
 
