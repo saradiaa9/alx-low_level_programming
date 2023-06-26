@@ -14,6 +14,6 @@ _putchar(*str);
 str++;
 }
 
-putchar('\n');
+_putchar('\n');
 
 }
