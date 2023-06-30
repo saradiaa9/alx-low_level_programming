@@ -8,17 +8,19 @@
 char *cap_string(char *str)
 {
 int i = 0;
+int is_new_word = 1;
 
 while (str[i] != '\0')
 {
-if (i == 0 || str[i - 1] == ' ' || str[i - 1] == '\t' ||
-str[i - 1] == '\n' || str[i - 1] == ',' || str[i - 1] == ';' ||
-str[i - 1] == '.' || str[i - 1] == '!' || str[i - 1] == '?' ||
-str[i - 1] == '\"' || str[i - 1] == '(' || str[i - 1] == ')' ||
-str[i - 1] == '{' || str[i - 1] == '}')
+if (is_new_word && str[i] >= 'a' && str[i] <= 'z')
 {
-str[i] = toupper(str[i]);
+str[i] = str[i] - ('a' - 'A');
 }
+is_new_word = (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
+str[i] == ',' || str[i] == ';' || str[i] == '.' ||
+str[i] == '!' || str[i] == '?' || str[i] == '\"' ||
+str[i] == '(' || str[i] == ')' || str[i] == '{' ||
+str[i] == '}');
 i++;
 }
 
