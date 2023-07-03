@@ -10,7 +10,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-char *p1, *p2, *p3;
+char *p1, *p2;
 if (!*needle)
 {
 return (haystack);
@@ -28,7 +28,6 @@ if (!*p2)
 {
 return (haystack);
 }
-p3 = haystack;
 haystack++;
 }
 return (NULL);
