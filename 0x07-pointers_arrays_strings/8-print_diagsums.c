@@ -1,10 +1,15 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * print_diagsums - prints the sum of the diagonals of a square matrix
  * @a: pointer to the first element of the matrix
  * @size: the size of the matrix (number of rows/columns)
  */
+
+int _putchar(char c)
+{
+    return (write(1, &c, 1));
+}
 void print_diagsums(int *a, int size)
 {
 int i, sum1 = 0, sum2 = 0;
