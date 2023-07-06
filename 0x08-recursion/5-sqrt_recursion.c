@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * natural_sqrt -
- * calculates the natural square root of a number using recursion
+ * natural_sqrt - calculates the natural
+ * square root of a number using recursion
  *
  * @n: the number to calculate the natural square root of
  * @i: the current candidate for the natural square root
@@ -31,8 +31,8 @@ return (natural_sqrt(n, i + 1));
 }
 
 /**
- * _sqrt_recursion -
- * returns the natural square root of a number using recursion
+ * _sqrt_recursion - returns the natural square root
+ * of a number using recursion
  *
  * @n: the number to calculate the natural square root of
  *
