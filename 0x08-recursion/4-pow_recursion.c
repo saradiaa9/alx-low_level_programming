@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion - calculates the value of x raised to the power of y using recursion
+ * _pow_recursion - calculates the value of x raised
+ * to the power of y using recursion
  *
  * @x: the base
  * @y: the exponent
