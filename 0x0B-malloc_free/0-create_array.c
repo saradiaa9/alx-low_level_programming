@@ -16,7 +16,7 @@ return (NULL);
 }
 char *arr;
 unsigned int i;
-*arr = malloc(sizeof(char) * size);
+arr = malloc(sizeof(char) * size);
 
 if (arr == NULL)
 {
