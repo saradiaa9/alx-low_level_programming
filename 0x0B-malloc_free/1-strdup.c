@@ -13,20 +13,18 @@
  */
 char *_strdup(char *str)
 {
-if (str == NULL)
-{
-return (NULL);
-}
+size_t len;
+char *dup;
 
-size_t len = strlen(str) + 1;
-char *dup = malloc(len);
+if (str == NULL)
+return (NULL);
+
+len = strlen(str) + 1;
+dup = malloc(len);
 
 if (dup == NULL)
-{
 return (NULL);
-}
 
 memcpy(dup, str, len);
-
 return (dup);
 }
