@@ -10,12 +10,13 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+int sum;
+va_list args;
+unsigned int i;
 if (n == 0)
 return (0);
 
-int sum = 0;
-va_list args;
-unsigned int i;
+sum = 0;
 
 va_start(args, n);
 
