@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "dog.h" // Include the dog.h header file
+#include "dog.h" 
 
 /**
  * print_dog - Prints the elements of a struct dog
