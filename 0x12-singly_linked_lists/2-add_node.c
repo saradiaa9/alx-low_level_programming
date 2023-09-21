@@ -11,10 +11,11 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
+list_t *new_node;
 if (str == NULL)
-return (NULL);
+    return NULL;
 
-list_t *new_node = malloc(sizeof(list_t)); /* Allocate memory for the new node */
+new_node = malloc(sizeof(list_t)); /* Allocate memory for the new node */
 
 if (new_node == NULL)
 return (NULL); /* Return NULL if malloc fails */
