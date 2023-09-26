@@ -16,5 +16,5 @@ sum += head->n; /* Add the data (n) of the current node to the sum */
 head = head->next; /* Move to the next node */
 }
 
-return (sum); /* Return the sum of all the data values */
+return sum; /* Return the sum of all the data values */
 }
