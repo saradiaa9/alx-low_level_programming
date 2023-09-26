@@ -4,8 +4,6 @@
 #include <stddef.h>
 /* Other declarations and includes specific to your header */
 
-int _putchar(char c);  /* Prototype for the _putchar function */
-size_t print_listint(const listint_t *h);
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -19,6 +17,10 @@ typedef struct listint_s
     int n;
     struct listint_s *next;
 } listint_t;
+
+
+int _putchar(char c);  /* Prototype for the _putchar function */
+size_t print_listint(const listint_t *h);
 
 /* More declarations specific to your header */
 
